@@ -203,11 +203,15 @@ let word = ["banana", "apple", "bluebarry", "graphefruit", "starberry", "mda", "
 
 // -- отсортировать его по алфавиту в восходящем порядке.
 
-
+let resultat = word.sort((a, b) => a.localeCompare(b))
+console.log(resultat)
+console.log("==============================================================================")
 
 // -- отсортировать его по алфавиту  в нисходящем порядке.
 
-
+let resultat2 = word.sort((a, b) => b.localeCompare(a))
+console.log(resultat2)
+console.log("==============================================================================")
 
 // -- отфильтровать слова длиной менее 4х символов
 
